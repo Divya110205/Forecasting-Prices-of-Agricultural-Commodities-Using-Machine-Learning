@@ -9,19 +9,29 @@ This project develops machine learning models to predict prices of essential agr
 ## Features
 <!--List the features of the project as shown below-->
 -Data Integration: Combines weather and price data.
+
 -Feature Engineering: Enhances model accuracy with relevant features.
+
 -Model Selection: Utilizes Random Forest Regression.
+
 -Visualization: Analyzes trends and price volatility.
+
 -User Input: Customized predictions based on input.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
 *Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with machine learning frameworks.
+
 *Development Environment: Python 3.7 or later is necessary for coding the agricultural commodity price prediction system.
+
 *Machine Learning Frameworks: Scikit-learn for model training and prediction analysis, Pandas for data manipulation.
+
 *Data Visualization Libraries: Matplotlib and Seaborn for effective visualization of price trends and data analysis.
+
 *Version Control: Implementation of Git for collaborative development and effective code management.
+
 *IDE: Use of Jupyter Notebook, Google Colab or VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+
 *Additional Dependencies: Includes NumPy, Scikit-learn, Matplotlib, Seaborn, and Pandas for data processing and visualization tasks.
 
 ## System Architecture
@@ -59,7 +69,9 @@ The project's goal is to precisely forecast the prices of agricultural commoditi
 ### Websites:
 
 https://consumeraffairs.nic.in/ ​
+
 https://power.larc.nasa.gov/data-access-viewer/​
+
 https://scikitlearn.org/dev/modules/generated/sklearn.ensemble.RandomForestRegressor.html​
 
 ### Books:
