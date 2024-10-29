@@ -44,20 +44,24 @@ This project develops machine learning models to predict prices of essential agr
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
+
 When the model is executed, it first asks for the commodity name,
 ![Screenshot 2024-10-27 122814](https://github.com/user-attachments/assets/afea55b1-f2b2-46a4-b7a1-bff70cfd36ab)
 
 ​
 
 After we enter the commodity name, it displays the selected commodity and the features used to train the model.
+
 ![Screenshot 2024-10-27 122830](https://github.com/user-attachments/assets/76750207-24f4-4761-a64c-685a359cddfd)
 
 
 Then, it asks for the commodity, state, and date for prediction.
+
 ![Screenshot 2024-10-27 123820](https://github.com/user-attachments/assets/2e4ad095-d2f4-48f5-aaf3-f174b5c40880)
 
 
 The Predicted price:
+
 ![Screenshot 2024-10-27 123847](https://github.com/user-attachments/assets/ed786b55-a027-4a6f-8e02-90cc811c67f3)
 
 
@@ -76,6 +80,7 @@ https://scikitlearn.org/dev/modules/generated/sklearn.ensemble.RandomForestRegre
 
 ### Books:
 1.Raghavendra, B., & Rao, K. (2019). Data Science in Agriculture: Concepts, Tools, and Techniques. Springer.​
+
 2.Prasad, M. (2020). Machine Learning for Agricultural Price Prediction. Academic Press.
 
 
