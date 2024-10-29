@@ -1,58 +1,71 @@
 ## FORECASTING PRICES OF AGRICULTURAL COMMODITIES USING MACHINE LEARNING
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+
+This project uses machine learning models to predict prices of agricultural commodities, such as pulses and vegetables, based on historical price and weather data. By forecasting price trends, it aims to support market stability and assist in better planning for farmers and policymakers.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project develops machine learning models to predict prices of essential agricultural commodities like pulses, onions, and potatoes by analyzing historical price data and weather information. Utilizing techniques such as data cleaning, visualization, and regression algorithms, the project aims to capture trends and environmental impacts to provide a data-driven approach for forecasting. Ultimately, these predictions will aid in stabilizing markets and supporting informed decision-making for farmers and policymakers, reducing price volatility and improving agricultural planning.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+-Data Integration: Combines weather and price data.
+-Feature Engineering: Enhances model accuracy with relevant features.
+-Model Selection: Utilizes Random Forest Regression.
+-Visualization: Analyzes trends and price volatility.
+-User Input: Customized predictions based on input.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+*Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with machine learning frameworks.
+*Development Environment: Python 3.7 or later is necessary for coding the agricultural commodity price prediction system.
+*Machine Learning Frameworks: Scikit-learn for model training and prediction analysis, Pandas for data manipulation.
+*Data Visualization Libraries: Matplotlib and Seaborn for effective visualization of price trends and data analysis.
+*Version Control: Implementation of Git for collaborative development and effective code management.
+*IDE: Use of Jupyter Notebook, Google Colab or VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+*Additional Dependencies: Includes NumPy, Scikit-learn, Matplotlib, Seaborn, and Pandas for data processing and visualization tasks.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Screenshot 2024-10-29 110530](https://github.com/user-attachments/assets/9450ead5-1647-464c-b954-686139611722)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+When the model is executed, it first asks for the commodity name,
+![Screenshot 2024-10-27 122814](https://github.com/user-attachments/assets/afea55b1-f2b2-46a4-b7a1-bff70cfd36ab)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+​
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+After we enter the commodity name, it displays the selected commodity and the features used to train the model.
+![Screenshot 2024-10-27 122830](https://github.com/user-attachments/assets/76750207-24f4-4761-a64c-685a359cddfd)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
+Then, it asks for the commodity, state, and date for prediction.
+![Screenshot 2024-10-27 123820](https://github.com/user-attachments/assets/2e4ad095-d2f4-48f5-aaf3-f174b5c40880)
+
+
+The Predicted price:
+![Screenshot 2024-10-27 123847](https://github.com/user-attachments/assets/ed786b55-a027-4a6f-8e02-90cc811c67f3)
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The project's goal is to precisely forecast the prices of agricultural commodities, assisting farmers and stakeholders in making educated decisions. Utilizing machine learning algorithms, it examines historical pricing data alongside weather conditions to produce accurate predictions. Implementing this system can decrease price fluctuations, contributing to more stable market dynamics. Furthermore, it offers crucial insights into pricing trends, facilitating better planning and resource management. Ultimately, the project improves the overall effectiveness of agricultural markets, fostering more favorable economic results for both farmers and consumers. Its influence also supports enhanced food security and sustainable farming practices.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+## References
+### Websites:
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+https://consumeraffairs.nic.in/ ​
+https://power.larc.nasa.gov/data-access-viewer/​
+https://scikitlearn.org/dev/modules/generated/sklearn.ensemble.RandomForestRegressor.html​
+
+### Books:
+1.Raghavendra, B., & Rao, K. (2019). Data Science in Agriculture: Concepts, Tools, and Techniques. Springer.​
+2.Prasad, M. (2020). Machine Learning for Agricultural Price Prediction. Academic Press.
+
 
 
 
