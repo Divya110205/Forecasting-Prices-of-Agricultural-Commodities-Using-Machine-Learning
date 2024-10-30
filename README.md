@@ -37,7 +37,8 @@ This project develops machine learning models to predict prices of essential agr
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2024-10-29 110530](https://github.com/user-attachments/assets/9450ead5-1647-464c-b954-686139611722)
+![Screenshot 2024-10-30 162232](https://github.com/user-attachments/assets/f73c31ac-7abf-4fed-84cc-2831e893a00d)
+
 
 
 
@@ -82,6 +83,11 @@ https://scikitlearn.org/dev/modules/generated/sklearn.ensemble.RandomForestRegre
 1.Raghavendra, B., & Rao, K. (2019). Data Science in Agriculture: Concepts, Tools, and Techniques. Springer.​
 
 2.Prasad, M. (2020). Machine Learning for Agricultural Price Prediction. Academic Press.
+
+### Paper References:
+1.Murat, Sari., Serbay, Duran., Huseyin, Kutlu., Bulent, Guloglu., Zehra, Atik. (2024). 1. Various optimized machine learning techniques to predict agricultural commodity prices. ​
+
+2.Zhiyuan, Chen., William, Wong., Wing, Leong, Teo. (2024). 3. A Case Based Artificial Neural Network Model for Agricultural Price Prediction with Differential Evolution.  
 
 
 
